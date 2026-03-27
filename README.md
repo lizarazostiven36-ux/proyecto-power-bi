@@ -4,7 +4,7 @@ Proyecto desarrollado en el Diplomado de Power BI.
 Incluye limpieza de datos en Excel y creación de dashboard interactivo.
 
 ## 📈 Panel de Control
-![Dashboard](panel%20de%20control.png.jpeg)
+![Dashboard](panel de control.png.jpeg)
 
 ## 🗃️ Datos
 ![Datos](datos.png.jpeg)
