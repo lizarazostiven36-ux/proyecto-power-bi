@@ -1,2 +1,18 @@
-# proyecto-power-bi
-Proyecto de análisis de datos de servicio en Power BI
+# 📊 Proyecto Power BI - Análisis de Servicio al Cliente
+
+Proyecto desarrollado en el Diplomado de Power BI.
+Incluye limpieza de datos en Excel y creación de dashboard interactivo.
+
+## 📈 Panel de Control
+![Dashboard](panel%20de%20control.png.jpeg)
+
+## 🗃️ Datos
+![Datos](datos.png.jpeg)
+
+## 🔗 Modelo de Datos
+![Modelo](modelo.png.jpeg)
+
+## 📌 Métricas principales
+- Total de llamadas: **1.009**
+- Promedio índice de satisfacción: **3.40**
+- Promedio velocidad de respuesta: **67**
