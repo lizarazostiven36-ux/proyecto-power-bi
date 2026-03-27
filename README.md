@@ -37,7 +37,7 @@ Se utilizó una tabla principal llamada **atenciones**:
 ---
 
 ## Panel de Control
-panel de control.png.jpeg
+![Dashboard](dashboard.png)
 
 ## 🗃️ Datos
 ![Datos](datos.png.jpeg)
