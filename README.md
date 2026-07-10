@@ -1,27 +1,12 @@
 # 📊 Análisis de Servicio al Cliente – Power BI
 
-## Descripción del Proyecto
-Este proyecto analiza el rendimiento del servicio al cliente usando Power BI.
-El objetivo es identificar patrones en la atención, medir la satisfacción de los 
-usuarios y evaluar el desempeño de los asistentes por área.
+## Objetivo / Pregunta de negocio
+¿Cómo está funcionando el centro de atención al cliente? Se buscó identificar patrones en la atención, medir la satisfacción de los usuarios y evaluar el desempeño de los asistentes por área.
 
-Este análisis fue desarrollado como parte del evento "Acelerador de Carrera con 
-Power BI + IA" organizado por Daxus Latam, simulando el rol de Analista de Datos 
-en un centro de atención al cliente.
+Proyecto desarrollado como parte del evento "Acelerador de Carrera con Power BI + IA" (Daxus Latam), simulando el rol de Analista de Datos en un centro de atención al cliente.
 
----
-
-## Preguntas de Negocio
-- ¿Cuántas llamadas se gestionaron en total?
-- ¿Qué asistente tiene mayor volumen de atención?
-- ¿En qué área se concentran más las llamadas?
-- ¿Cuál es el índice de satisfacción promedio?
-- ¿Qué tan rápido se responden las llamadas?
-
----
-
-## Conjunto de Datos
-Se utilizó una tabla principal llamada **atenciones**:
+## Datos
+Tabla principal **atenciones**:
 
 | Columna | Tipo | Descripción |
 |---|---|---|
@@ -34,55 +19,37 @@ Se utilizó una tabla principal llamada **atenciones**:
 | Duración de la llamada | TIME | Duración total de la llamada |
 | Índice de satisfacción | FLOAT | Puntuación de satisfacción del cliente |
 
----
+## Proceso
+1. **Limpieza de datos:** depuración y estandarización en Excel.
+2. **Carga en Power BI:** importación y transformación con Power Query.
+3. **Modelado:** definición de medidas (DAX) y relaciones entre tablas.
+4. **Visualización:** construcción del dashboard interactivo (gráfico de dona, barras, mapa de árbol, KPIs).
+
+## Entregable
+Dashboard interactivo en Power BI (ver capturas abajo).
+
+## Insights
+- Se gestionaron **1,009 llamadas** en el periodo analizado.
+- El índice de satisfacción promedio fue de **3.40** (sobre escala del dataset).
+- La velocidad de respuesta promedio fue de **67 segundos**.
+- La tasa de resolución alcanzó **92.67%** — la mayoría de las llamadas se resuelven en el primer contacto.
+
+## Recomendación / Siguiente paso
+Si este fuera un caso real, priorizaría investigar qué separa al asistente/área con mejor índice de satisfacción del resto, para replicar esas prácticas en el equipo completo. También propondría una meta de reducir la velocidad de respuesta por debajo de 60 segundos, ya que suele correlacionar con mayor satisfacción del cliente.
 
 ## Panel de Control
 ![Dashboard](panel%20de%20control.png.jpeg)
-
-## 🗃️ Datos
 ![Datos](datos.png.jpeg)
+![Modelo de Datos](modelo.png.jpeg)
 
-## 🔗 Modelo de Datos
-![Modelo](modelo.png.jpeg)
+## Cómo ejecutar
+Requisitos: Microsoft Power BI Desktop. Abrir el archivo `.pbix` del proyecto.
 
----
-
-## 📌 Métricas Principales
-- Total de llamadas: **1.009**
-- Promedio índice de satisfacción: **3.40**
-- Promedio velocidad de respuesta: **67 segundos**
-- Tasa de resolución: **92.67%**
-
----
-
-## Etapas del Análisis
-
-| Etapa | Descripción |
-|---|---|
-| 🧹 Limpieza de datos | Depuración y estandarización en Excel |
-| 🔗 Carga en Power BI | Importación y transformación con Power Query |
-| 📐 Modelado | Definición de medidas y relaciones |
-| 📊 Visualización | Creación del dashboard interactivo |
-
----
-
-## Técnicas Utilizadas
-- Limpieza y transformación de datos en **Excel**
-- **Power Query** para preparación de datos
-- Medidas con **DAX**
-- Visualizaciones: gráfico de dona, barras, mapa de árbol, KPIs
-
----
-
-## Herramientas
-- Microsoft Excel
-- Microsoft Power BI Desktop
-
----
+## Herramientas utilizadas
+Microsoft Excel, Microsoft Power BI Desktop (Power Query, DAX)
 
 ## Autor
-**Stiven Lizarazo**  
-Analista de Datos Junior  
-Proyecto desarrollado como parte del evento **"Acelerador de Carrera con Power BI + IA"**  
-organizado por **Daxus Latam** · 19 de marzo de 2026 · 8 horas  
+**Stiven Lizarazo** — Junior Data Analyst
+Proyecto desarrollado como parte del evento "Acelerador de Carrera con Power BI + IA", organizado por Daxus Latam · 19 de marzo de 2026 · 8 horas
 Certificado emitido por: Zaira Hurtado
+[LinkedIn](https://www.linkedin.com/in/stiven-lizarazo-4b5177258/) · lizarazostiven36@gmail.com
